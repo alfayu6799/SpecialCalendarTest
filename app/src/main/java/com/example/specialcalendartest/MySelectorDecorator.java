@@ -1,5 +1,6 @@
 package com.example.specialcalendartest;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.graphics.drawable.Drawable;
 
@@ -11,6 +12,7 @@ public class MySelectorDecorator implements DayViewDecorator {
 
     private final Drawable drawable;
 
+    @SuppressLint("UseCompatLoadingForDrawables")
     public MySelectorDecorator(Activity context) {
         drawable = context.getResources().getDrawable(R.drawable.my_selector);
     }

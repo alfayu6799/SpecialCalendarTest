@@ -10,6 +10,9 @@ import com.prolificinteractive.materialcalendarview.DayViewFacade;
 
 import org.threeten.bp.DayOfWeek;
 
+/*** *************** ***
+*  週六日整排的背景顏色變更
+* *** ******************/
 public class HighlightWeekendsDecorator implements DayViewDecorator {
 
     private final Drawable highlightDrawable;
